@@ -1,0 +1,26 @@
+body {
+    background: #f7f7f7;
+}
+
+.portfolio-me {
+	background-color: #313c34;
+}
+
+.title-bar {
+   background-color: #313c34;
+}
+
+.portfolio-index .cell {
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.thumbnail {
+     box-shadow: 0 0 0 0 transparent; 
+}
+
+
+#error {
+	padding: 20px;
+}

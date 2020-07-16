@@ -1,0 +1,26 @@
+{
+  "name": "unit6--nodejsexpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terrysmyth/Unit6--NodeJsExpress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/terrysmyth/Unit6--NodeJsExpress/issues"
+  },
+  "homepage": "https://github.com/terrysmyth/Unit6--NodeJsExpress#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "https": "^1.0.0",
+    "nodemon": "^2.0.4",
+    "pug": "^3.0.0"
+  }
+}

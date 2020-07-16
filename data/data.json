@@ -1,0 +1,107 @@
+{
+    "profile": {
+        "name": "Terence Jeffrey Wayburne",
+        "skills": [
+            "Nunchuk",
+            "Bowstaff",
+            "Bow-hunting",
+            "Computer hacking",
+            "Drawing animals"
+
+        ],
+        "img": "../static/images/terryProject.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vestibulum dolor non porta euismod. Nunc finibus ligula leo, ac ultrices nisi tristique et. Fusce sed semper elit, ac luctus arcu. Sed eget vehicula nulla, vitae feugiat enim. Ut vel orci aliquet, tincidunt mi vel, iaculis purus. Mauris vitae vulputate mi. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "number": "1234-567-89",
+        "email": "superemail@duper.com",
+        "github": "https://github.com/terrysmyth",
+        "linkedin": "https://www.linkedin.com/in/terence-wayburne-13a01856/"
+    },
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Unit 1: Random Quotes",
+            "description": "The beginning of super cool times!",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JS",
+                "Hype-Drive Technologies"
+            ],
+            "live_link": "https://terrysmyth.github.io/Unit1-FullStack/",
+            "github_link": "https://github.com/terrysmyth/Unit1-FullStack",
+            "images_urls": [
+                "../static/images/greenLong.png",
+                "../static/images/greenShort.png"
+            ]
+        },
+        {
+            "id": 1,
+            "project_name": "Unit 2: Student Directory",
+            "description": "Look 'em up!",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JS",
+                "Hype-Drive Technologies"
+            ],
+            "live_link": "https://terrysmyth.github.io/Unit2-FullStack/",
+            "github_link": "https://github.com/terrysmyth/Unit2-FullStack",
+            "images_urls": [
+                "../static/images/whiteShort.png",
+                "../static/images/whiteLong.png"
+            ]
+        },
+        {
+            "id": 2,
+            "project_name": "Unit 3: Validate this!",
+            "description": "Add some info, put in your credit card details...",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JS",
+                "Hype-Drive Technologies"
+            ],
+            "live_link": "https://terrysmyth.github.io/Unit3-FormValidation/",
+            "github_link": "https://github.com/terrysmyth/Unit3-FormValidation",
+            "images_urls": [
+                "../static/images/blueShort.png",
+                "../static/images/blueLong.png"
+            ]
+        },
+        {
+            "id": 3,
+            "project_name": "Unit 4: Phrase Hunter",
+            "description": "Works swimmingly.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JS",
+                "Hype-Drive Technologies"
+            ],
+            "live_link": "https://terrysmyth.github.io/unit4-OOP-Game-Show/",
+            "github_link": "https://github.com/terrysmyth/unit4-OOP-Game-Show",
+            "images_urls": [
+                "../static/images/phraseShort.png",
+                "../static/images/phraseLong.png"
+            ]
+        },
+        {
+            "id": 4,
+            "project_name": "Unit 5: Employee Directory",
+            "description": "Toughy.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JS",
+                "Hype-Drive Technologies"
+            ],
+            "live_link": "https://terrysmyth.github.io/unit5-AJAX/",
+            "github_link": "https://github.com/terrysmyth/unit5-AJAX",
+            "images_urls": [
+                "../static/images/peopleShort.png",
+                "../static/images/peopleLong.png"
+            ]
+        }
+
+    ]
+}

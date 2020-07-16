@@ -1,0 +1,36 @@
+extends layout.pug
+
+block content 
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
+
+        h1 #{profile.name}
+
+        p.lead.text-light
+          | Full Stack JavaScript Developer.
+
+        .portfolio-bio
+          p
+            | #{profile.description}
+      .cell.portfolio-meta.small-6.medium-2.large-3
+        h6 Skills
+
+        ul
+          each i in profile.skills
+            li #{i}
+            
+        h6 Contact Info
+
+        ul
+          li #{profile.number}
+          li #{profile.email}
+
+        //- Add URLs to the hrefs below to link to your social media accounts.
+        a.button.expanded(href=`${profile.github}` target='_blank') GitHub
+        a.button.expanded(href=`${profile.linkedin}` target='_blank') LinkedIn
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  
